@@ -1,0 +1,7 @@
+.hotel{
+    display: flex;
+    justify-content:space-evenly ;
+}
+.map__img img{
+    height: 400px;
+}

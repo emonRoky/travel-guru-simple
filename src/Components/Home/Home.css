@@ -1,0 +1,41 @@
+.banner-section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../images/Rectangle\ 1.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+.banner__area{
+    display:flex;
+    margin-top: 80px;
+}
+.banner__left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+    padding: 0 10%;
+}
+.banner__right{
+    display:flex;
+    flex-direction: column;
+    padding-right: 25px;
+    flex: 1;
+}
+
+.banner__left h1{
+    font-family: Bebas Neue;
+    font-weight: 400;
+    font-size: 97.6842px;
+    line-height: 117px;
+    color: #ffffff;
+}
+.banner__left p{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    /* padding:0 20%; */
+}

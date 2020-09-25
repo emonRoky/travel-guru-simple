@@ -1,0 +1,65 @@
+.auth-section{
+    display: flex;
+   justify-content: center;
+}
+.login{
+    background-color: white;
+    box-shadow: 4px 4px 4px 4px #888888;
+    padding: 15px 30px;
+}
+.input-Place input{
+    border: none;
+    outline-width:0;
+    background-color: #F2F2F2;
+    color:#000;
+    width:300px;
+    height:40px;
+}
+.input-Place{
+    margin-top: 10px;
+    border-bottom: 2px solid black;
+}
+.edit-pass{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    line-height: 0%;
+}
+.create__acount{
+    padding-top: 20px;
+    line-height: 0%;
+}
+.create__btn{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    text-decoration: underline;
+}
+.thirdParty__auth{
+    display: flex;
+    justify-content: center;
+}
+.auth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.google img{
+    height: 30px;
+    padding-left: 50px;
+}
+.google{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    padding: 0 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn__extra{
+    margin-top: 10px;
+}
